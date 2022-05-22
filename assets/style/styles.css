@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/*FORMATAÇÃO*/
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(90deg, #001973, #780000);
+
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*TITLE*/
+.title{
+    text-align: center;
+    color: var(--title);
+
+    font-size: 20px;
+
+    margin-top: 30px;
+}
+
+.title img{
+    width: 100px;
+}
+
+/*MOVIE*/
+.movie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 20px;
+    color: white;
+
+}
+
+#movieImage{
+    width: 200px;
+}
+
+#movieTitle{
+    margin-bottom: 20px;
+}
+
+#movieDescription{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.movie div{
+    width: 90%;
+
+    text-align: center;
+}
+
+/*GENERATION MOVIE*/
+.generationMovie,
+.generationMovie button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    text-align: center;
+
+    color: var(--title);
+}
+
+#btnGeneratorMovie{
+    flex-direction: row;
+    color: black;
+
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.500);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+    cursor: pointer;
+}
+
+.generationMovie button img{
+    width: 40px;
+}
+
+.generationMovie > p{
+    color: var(--subtitle);
+}
+
+@media (min-width: 900px) {
+    .movie{
+        flex-direction: row;
+    }
+    
+    .movie div{
+        width: 40%;
+        text-align: start;
+    }
+}
+
+
