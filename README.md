@@ -11,7 +11,7 @@ Projeto desenvolvido para descoberta de novos filmes. Com ele é apresentado o p
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [The Movie Database]([http://www.dropwizard.io/1.0.2/docs/](https://www.themoviedb.org/?language=pt-BR)) - A api usada no projeto
+* [The Movie Database](https://developers.themoviedb.org/3/getting-started) - A api usada no projeto
 * JavaScript
 * HTML5 E CSS3
 
